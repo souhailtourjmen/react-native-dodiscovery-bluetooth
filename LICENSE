@@ -1,0 +1,20 @@
+MIT License
+
+Copyright (c) 2024 aul: 9100 Return:0: connection success-1: connection failure Disconnect WiFi:Example: Print.PorClose() Return:    7True: disconnection success False: disconnection failure Whether WiFi is connected:Example: Print.IsOpened() Return:True: connected False: unconnected2.3 USB ConnectionConnect USB:int PortOpen(Context context,UsbDevice usbdevice) Example:Print.PortOpen(context,usbdevice)usbdevice: UsbDevice objectReturn:0:connection success -1:connection failure Disconnect USB:Example:     8Print.PorClose()Return:true:Disconnection success false:disconnection failureWhether USB is connected:Example: Print.IsOpened() Return: true:connected false:unconnected2.4 Signal Interface ConnectionConnect signal interface:int PortOpen(Context context,String portSetting)Example:Print.PortOpen(“Serial,”+port+”,”+baudrate)port: node of signal interface (differ from models) e.g./dev/ttyS1 baudrate: baud rate e.g.9600Return:    90: connection success-1: connection failure Disconnect signa
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
