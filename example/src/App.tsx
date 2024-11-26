@@ -1,17 +1,102 @@
 import { useState, useEffect } from 'react';
-import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'react-native-dodiscovery-bluetooth';
+import { StyleSheet, View, Text, FlatList, Button, Alert } from 'react-native';
+import {
+  startDiscovery,
+  getPairedDevices,
+  cancelDiscovery,
+} from 'react-native-dodiscovery-bluetooth';
 
 export default function App() {
-  const [result, setResult] = useState<number | undefined>();
+  const [pairedDevices, setPairedDevices] = useState([]);
+  const [discoveredDevices, setDiscoveredDevices] = useState<any>([]);
+  const [isDiscovering, setIsDiscovering] = useState(false);
+  // Récupérer les appareils appariés
+  const fetchPairedDevices = () => {
+    getPairedDevices()
+      .then((devices) => {
+        setPairedDevices(devices);
+      })
+      .catch((error) => {
+        Alert.alert(
+          'Erreur',
+          `Erreur lors de la récupération des appareils appariés: ${error}`
+        );
+      });
+  };
+
+  // Démarrer la découverte des appareils
+  const handleStartDiscovery = async () => {
+    setIsDiscovering(true);
+    startDiscovery()
+      .then((deviceInfo) => {
+        setDiscoveredDevices((prevDevices: any) => [
+          ...prevDevices,
+          deviceInfo,
+        ]);
+      })
+      .catch((error) => {
+        Alert.alert(
+          'Erreur',
+          `Erreur lors de la découverte des appareils: ${error}`
+        );
+      });
+  };
+
+  // Annuler la découverte des appareils
+  const handleCancelDiscovery = () => {
+    cancelDiscovery()
+      .then(() => {
+        setIsDiscovering(false);
+      })
+      .catch((error) => {
+        Alert.alert(
+          'Erreur',
+          `Erreur lors de l'annulation de la découverte: ${error}`
+        );
+      });
+  };
 
   useEffect(() => {
-    multiply(3, 7).then(setResult);
+    fetchPairedDevices();
   }, []);
 
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <Text style={styles.title}>Appareils Bluetooth</Text>
+
+      {/* Liste des appareils appariés */}
+      <Text style={styles.subtitle}>Appareils Appariés</Text>
+      <FlatList
+        data={pairedDevices}
+        keyExtractor={(item) => item?.address}
+        renderItem={({ item }) => (
+          <View style={styles.deviceItem}>
+            <Text>{item?.name}</Text>
+            <Text>{item?.address}</Text>
+          </View>
+        )}
+      />
+
+      {/* Boutons pour démarrer et annuler la découverte */}
+      <Button
+        title={
+          isDiscovering ? 'Annuler la découverte' : 'Démarrer la découverte'
+        }
+        onPress={isDiscovering ? handleCancelDiscovery : handleStartDiscovery}
+      />
+
+      {/* Liste des appareils découverts */}
+      <Text style={styles.subtitle}>Appareils Découverts</Text>
+      <FlatList
+        data={discoveredDevices}
+        keyExtractor={(item) => item.address}
+        renderItem={({ item }) => (
+          <View style={styles.deviceItem}>
+            <Text>{item.name}</Text>
+            <Text>{item.address}</Text>
+          </View>
+        )}
+      />
     </View>
   );
 }
@@ -19,12 +104,24 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
+    padding: 20,
+    backgroundColor: '#fff',
   },
-  box: {
-    width: 60,
-    height: 60,
-    marginVertical: 20,
+  title: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    marginBottom: 20,
+  },
+  subtitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    marginTop: 20,
+  },
+  deviceItem: {
+    padding: 10,
+    marginVertical: 5,
+    backgroundColor: '#f0f0f0',
+    borderRadius: 5,
   },
 });
