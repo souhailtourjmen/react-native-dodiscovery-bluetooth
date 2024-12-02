@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* DodiscoveryBluetoothExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DodiscoveryBluetoothExampleTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-DodiscoveryBluetoothExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-DodiscoveryBluetoothExample.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8D07A0D820038175822B4816 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		91EA585A88FE7EC0E6339323 /* libPods-DodiscoveryBluetoothExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0FAFBB850E9D3B7B958D55D /* libPods-DodiscoveryBluetoothExample.a */; };
+		AB6E0C1CC3A47F1331C07175 /* libPods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B74612AA8ECDE8571B6F53 /* libPods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +31,7 @@
 		00E356EE1AD99517003FC87E /* DodiscoveryBluetoothExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DodiscoveryBluetoothExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* DodiscoveryBluetoothExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DodiscoveryBluetoothExampleTests.m; sourceTree = "<group>"; };
+		0FCDD3E49CB50B0250B1EF60 /* Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests.release.xcconfig"; path = "Target Support Files/Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests/Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* DodiscoveryBluetoothExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DodiscoveryBluetoothExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DodiscoveryBluetoothExample/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = DodiscoveryBluetoothExample/AppDelegate.mm; sourceTree = "<group>"; };
@@ -37,14 +39,13 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DodiscoveryBluetoothExample/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DodiscoveryBluetoothExample/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = DodiscoveryBluetoothExample/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-DodiscoveryBluetoothExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DodiscoveryBluetoothExample.debug.xcconfig"; path = "Target Support Files/Pods-DodiscoveryBluetoothExample/Pods-DodiscoveryBluetoothExample.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-DodiscoveryBluetoothExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DodiscoveryBluetoothExample.release.xcconfig"; path = "Target Support Files/Pods-DodiscoveryBluetoothExample/Pods-DodiscoveryBluetoothExample.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests/Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-DodiscoveryBluetoothExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DodiscoveryBluetoothExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = DodiscoveryBluetoothExample/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests.release.xcconfig"; path = "Target Support Files/Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests/Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		AFD7EFEC62C8DAE1210BABB0 /* Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests/Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9FA67FC2FE19384B3213984 /* Pods-DodiscoveryBluetoothExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DodiscoveryBluetoothExample.release.xcconfig"; path = "Target Support Files/Pods-DodiscoveryBluetoothExample/Pods-DodiscoveryBluetoothExample.release.xcconfig"; sourceTree = "<group>"; };
+		D1B74612AA8ECDE8571B6F53 /* libPods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2035DC5C8AFDD0E18CE42CF /* Pods-DodiscoveryBluetoothExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DodiscoveryBluetoothExample.debug.xcconfig"; path = "Target Support Files/Pods-DodiscoveryBluetoothExample/Pods-DodiscoveryBluetoothExample.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F0FAFBB850E9D3B7B958D55D /* libPods-DodiscoveryBluetoothExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DodiscoveryBluetoothExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests.a in Frameworks */,
+				AB6E0C1CC3A47F1331C07175 /* libPods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-DodiscoveryBluetoothExample.a in Frameworks */,
+				91EA585A88FE7EC0E6339323 /* libPods-DodiscoveryBluetoothExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,8 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-DodiscoveryBluetoothExample.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests.a */,
+				F0FAFBB850E9D3B7B958D55D /* libPods-DodiscoveryBluetoothExample.a */,
+				D1B74612AA8ECDE8571B6F53 /* libPods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -142,10 +143,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-DodiscoveryBluetoothExample.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-DodiscoveryBluetoothExample.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests.release.xcconfig */,
+				D2035DC5C8AFDD0E18CE42CF /* Pods-DodiscoveryBluetoothExample.debug.xcconfig */,
+				C9FA67FC2FE19384B3213984 /* Pods-DodiscoveryBluetoothExample.release.xcconfig */,
+				AFD7EFEC62C8DAE1210BABB0 /* Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests.debug.xcconfig */,
+				0FCDD3E49CB50B0250B1EF60 /* Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -157,12 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "DodiscoveryBluetoothExampleTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				79F605E52C28235768B3C6B1 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+				0FB26B0D8C2EBD81E9E5FADF /* [CP] Embed Pods Frameworks */,
+				9494998EB24C5068AB425D27 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -178,13 +179,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DodiscoveryBluetoothExample" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				EBE99BC3AA423FFF69B5CA34 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				31109AB41B8E678698B64074 /* [CP] Embed Pods Frameworks */,
+				1F130645891F30EDA4C8F1D7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,6 +246,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				8D07A0D820038175822B4816 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +269,41 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+		0FB26B0D8C2EBD81E9E5FADF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests/Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests/Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests/Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F130645891F30EDA4C8F1D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DodiscoveryBluetoothExample/Pods-DodiscoveryBluetoothExample-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DodiscoveryBluetoothExample/Pods-DodiscoveryBluetoothExample-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DodiscoveryBluetoothExample/Pods-DodiscoveryBluetoothExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31109AB41B8E678698B64074 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -284,7 +320,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DodiscoveryBluetoothExample/Pods-DodiscoveryBluetoothExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+		79F605E52C28235768B3C6B1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -306,7 +342,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		9494998EB24C5068AB425D27 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests/Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests/Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests/Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBE99BC3AA423FFF69B5CA34 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -326,57 +379,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests/Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests/Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests/Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DodiscoveryBluetoothExample/Pods-DodiscoveryBluetoothExample-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DodiscoveryBluetoothExample/Pods-DodiscoveryBluetoothExample-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DodiscoveryBluetoothExample/Pods-DodiscoveryBluetoothExample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests/Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests/Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests/Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -412,7 +414,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests.debug.xcconfig */;
+			baseConfigurationReference = AFD7EFEC62C8DAE1210BABB0 /* Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -431,7 +433,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "dodiscoverybluetooth.example";
+				PRODUCT_BUNDLE_IDENTIFIER = dodiscoverybluetooth.example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DodiscoveryBluetoothExample.app/DodiscoveryBluetoothExample";
 			};
@@ -439,7 +441,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests.release.xcconfig */;
+			baseConfigurationReference = 0FCDD3E49CB50B0250B1EF60 /* Pods-DodiscoveryBluetoothExample-DodiscoveryBluetoothExampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -455,7 +457,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "dodiscoverybluetooth.example";
+				PRODUCT_BUNDLE_IDENTIFIER = dodiscoverybluetooth.example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DodiscoveryBluetoothExample.app/DodiscoveryBluetoothExample";
 			};
@@ -463,11 +465,12 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-DodiscoveryBluetoothExample.debug.xcconfig */;
+			baseConfigurationReference = D2035DC5C8AFDD0E18CE42CF /* Pods-DodiscoveryBluetoothExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AY52K699J;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = DodiscoveryBluetoothExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
@@ -481,7 +484,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "dodiscoverybluetooth.example";
+				PRODUCT_BUNDLE_IDENTIFIER = com.playprocaisse.app;
 				PRODUCT_NAME = DodiscoveryBluetoothExample;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -491,11 +494,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-DodiscoveryBluetoothExample.release.xcconfig */;
+			baseConfigurationReference = C9FA67FC2FE19384B3213984 /* Pods-DodiscoveryBluetoothExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AY52K699J;
 				INFOPLIST_FILE = DodiscoveryBluetoothExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -508,7 +512,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "dodiscoverybluetooth.example";
+				PRODUCT_BUNDLE_IDENTIFIER = com.playprocaisse.app;
 				PRODUCT_NAME = DodiscoveryBluetoothExample;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -584,7 +588,14 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -649,7 +660,13 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

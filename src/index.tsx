@@ -28,7 +28,25 @@ export const enableBluetooth = async () => {
     throw error; // Throw the error to handle it outside if necessary
   }
 };
+export const scanBluetoothDevices = async () => {
+  try {
+    const devices = await DodiscoveryBluetooth.scanBluetoothDevices();
+    return devices;
+  } catch (error) {
+    console.error(error);
+    throw error;
+  }
+};
 
+export const connectToDevice = async (macAddress: string) => {
+  try {
+    const response = await DodiscoveryBluetooth.connectToDevice(macAddress);
+    return response;
+  } catch (error) {
+    console.error(error);
+    throw error;
+  }
+};
 // Start Bluetooth Discovery
 export const startDiscovery = async () => {
   try {
